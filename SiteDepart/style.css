@@ -66,6 +66,7 @@ h1 {
     padding-top: 200px;
     padding-bottom: 20px;
     margin-left: 8vw;
+    text-shadow: 0 0 7px rgba(0,0,0,1);
     white-space: nowrap;
 }
 .accueil p {
@@ -121,13 +122,14 @@ h2 {
     padding: 50px 0;
 }
 .image-info{
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease; 
     width: 200px;
     height: 250px;
     border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 .image-info:hover{
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease;
     transform: scale(1.05); 
     border-radius: 25px;
 }
