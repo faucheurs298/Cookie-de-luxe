@@ -231,8 +231,8 @@ h2 {
         padding: 0 100px;
     }
     .equipement-box {
-        width: 175px;
-        height: 200px;
+        width: 100px;
+        height: 115px;
         background-color: #00000048;
         background-size: cover;
         background-position: center;
@@ -312,6 +312,11 @@ h2 {
     justify-content: space-around;
     padding: 0 100px;
 }
+@media screen and (max-width: 750px) {
+    .tarifs-container {
+        display: flex;
+        flex-direction: column;
+    }
 .tarif-box {
     width: 30%;
     text-align: center;
