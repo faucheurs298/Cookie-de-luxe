@@ -139,6 +139,11 @@ h2 {
     align-items: flex-start;
     padding: 0 100px;
 }
+@media screen and (max-width: 750px) {
+    .infos-container {
+        flex-direction: column;
+    }
+}
 .info-box {
     width: 30%;
     text-align: center;
