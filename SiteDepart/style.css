@@ -201,6 +201,14 @@ h2 {
     gap: 20px;
     padding: 0 100px;
 }
+@media screen and (max-width: 750px) {
+    .equipements-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 100px;
+    }
+}
 .equipement-box {
     width: 350px;
     height: 400px;
