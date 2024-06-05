@@ -206,10 +206,10 @@ h2 {
     gap: 20px;
     padding: 0 100px;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1350px) {
     .equipements-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         padding: 0 100px;
     }
@@ -223,10 +223,10 @@ h2 {
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 750px) {
     .equipements-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         padding: 0 100px;
     }
