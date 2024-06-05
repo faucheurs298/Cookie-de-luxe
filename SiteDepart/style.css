@@ -230,14 +230,8 @@ h2 {
         gap: 20px;
         padding: 0 100px;
     }
-    .equipement-box {
-        width: 100px;
-        height: 115px;
-        background-color: #00000048;
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-        margin: 0 auto;
+    #eb1, #eb2, #eb3, #eb4, #eb5, #eb6, #eb7, #eb8, #eb9 {
+        transform: scale(0.8); 
     }
 }
 .equipement-box {
