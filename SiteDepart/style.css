@@ -314,7 +314,6 @@ h2 {
 }
 @media screen and (max-width: 750px) {
     .tarifs-container {
-        display: flex;
         flex-direction: column;
     }
 .tarif-box {
