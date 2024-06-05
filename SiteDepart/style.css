@@ -225,8 +225,8 @@ h2 {
 }
 @media screen and (max-width: 750px) {
     .equipements-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
         gap: 20px;
         padding: 0 100px;
     }
