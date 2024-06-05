@@ -325,6 +325,8 @@ h2 {
 @media screen and (max-width: 750px) {
     .tarif-container {
         flex-direction: column;
+    }
+}
 /* --------- Section Contact ----------- */
 .section-contact {
     background: #FFF;
