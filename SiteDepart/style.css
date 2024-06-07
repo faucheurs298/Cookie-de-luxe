@@ -205,7 +205,6 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 0 100px;
-    padding-bottom:30px;
 }
 
 .equipement-box {
@@ -216,6 +215,7 @@ h2 {
     background-position: center;
     border-radius: 15px;
     margin: 0 auto;
+    padding-bottom:30px;
 }
 .section-equipements h2 {
     font-size: 70px;
